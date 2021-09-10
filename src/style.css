@@ -1,0 +1,22 @@
+h1{
+    background-color: yellow;
+    color: black;
+}
+
+body{
+    background-color: black;
+    font-family: Times New Roman, Helvetica, sans-serif;
+    color: blueviolet;
+    line-height: 50px;
+}
+
+.container{
+    width:500px;
+    margin:auto;
+}
+/**
+* .container only affects the container class.
+* <div class = "box-1">
+* <div>
+* .box-1{(code in here)}
+*/
