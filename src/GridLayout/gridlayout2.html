@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = en>
+        <head>
+        <title>
+            CSS Grid
+        </title>
+        <style>
+
+            .wrapper{
+                display:grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 1em;
+                grid-auto-rows: 100px;
+            }
+
+            .wrapper > div{
+                background: #eee;
+                padding: 1em;
+            }
+
+            .wrapper > div:nth-child(odd){
+                background:#ccc;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+        </div>
+    </body>
+    
+</html>
