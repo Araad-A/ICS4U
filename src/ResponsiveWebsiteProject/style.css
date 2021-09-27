@@ -62,7 +62,7 @@ body::before {
   margin-left:0px;
 }
 
-#showcase-img{
+#showcase img{
     width:65%;
     margin-top: 45px;
     padding-left: 70px;
@@ -71,20 +71,23 @@ body::before {
 }
 
 .product-image{
-  width: 58em;
+  width: 59em;
   margin-top:25px;
   display:block;
   margin-left:auto;
   margin-right:auto;
 }
 
-#bgdark-iPhone{
-  width:50em;
+#iPad-Air-image{
+  width: 63em;
+  margin-top:25px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-#bgblue-iPhone{
-  width:50em;
-  float:right;
+.product-promo img{
+  width: 50em;
 }
 
 @media (min-width: 767px) {
@@ -94,7 +97,7 @@ body::before {
 }
 
 @media (max-width:767px) {
-  #showcase-img {
+  #showcase img {
   display: none;
 }
   #showcase{
@@ -117,11 +120,28 @@ body::before {
   .product-image{
     display:none;
   }
+
+  #iPad-Air-image{
+    display:none;
+  }
+  
+  .product-promo img{
+    display:none;
+  }
 }
 
-@media (max-width:768px){
-  .product-image{
-    width: 700px;
+@media(max-width:768px){
+  #iPhone-camera-p{
+    padding-bottom:22px;
+  }
+  #Macbook-privacy-p{
+    margin-bottom:48px;
+  }
+  #iPad-wifi-p{
+    margin-bottom:24px;
+  }
+  #iPad-power-p{
+    margin-bottom:27px;
   }
 }
 
@@ -132,5 +152,18 @@ body::before {
   #about-footer{
     position: relative;
   }
+  .product-promo img{
+    width:40em;
+  }
 }
+
+@media(max-width:1024px){
+  #iPad-wifi-p{
+    margin-bottom:28px;
+  }
+  #Macbook-camera-p{
+    margin-bottom:3.4px;
+  }
+}
+
 
