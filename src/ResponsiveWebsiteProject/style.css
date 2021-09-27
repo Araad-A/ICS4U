@@ -143,6 +143,9 @@ body::before {
   #iPad-power-p{
     margin-bottom:27px;
   }
+  #Macbook-camera-p{
+    margin-bottom: px;
+  }
 }
 
 @media(max-width:991px){
@@ -162,7 +165,7 @@ body::before {
     margin-bottom:28px;
   }
   #Macbook-camera-p{
-    margin-bottom:3.4px;
+    margin-bottom:3.2px;
   }
 }
 
