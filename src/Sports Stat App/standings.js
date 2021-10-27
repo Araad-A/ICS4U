@@ -384,8 +384,11 @@ const teams = [{
 
 //let newTeamStandings = localStorage.getItem("teamStandings");
 //let teamStandings = newTeamStandings != null ? JSON.parse(newTeamStandings) : JSON.parse(teamStandings);
-let teamStandings = JSON.parse(JSON.stringify(teams));
+
+let newTeamStandings = localStorage.getItem("teamStandings");
+let teamStandings = newTeamStandings != null ? JSON.parse(newTeamStandings) : JSON.parse(teamStandings);
 console.log(teamStandings);
+
 
 let sortedStandings = teamStandings;
 let filteredStandings = teamStandings;
