@@ -385,11 +385,10 @@ const teams = [{
 //let newTeamStandings = localStorage.getItem("teamStandings");
 //let teamStandings = newTeamStandings != null ? JSON.parse(newTeamStandings) : JSON.parse(teamStandings);
 
-try{
 let newTeamStandings = localStorage.getItem("teamStandings");
-let teamStandings = newTeamStandings != null ? JSON.parse(newTeamStandings) : JSON.parse(teamStandings);
+let teamStandings = newTeamStandings != null ? JSON.parse(newTeamStandings) : JSON.parse(JSON.stringify(teams));
 console.log(teamStandings);
-}catch (ReferenceError){}
+
 
 let sortedStandings = teamStandings;
 let filteredStandings = teamStandings;
