@@ -162,7 +162,7 @@ body::before {
   .product-promo img{
     width:40em;
   }
-  #nav-text{
+  .navbar-brand{
     display:none;
   }
 }
