@@ -84,6 +84,7 @@ body::before {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  
 }
 
 .product-promo img{
@@ -93,6 +94,9 @@ body::before {
 @media (min-width: 767px) {
   #enter-email {
     width: 50%;
+  }
+  #enter-search {
+    width: 80%;
   }
 }
 
@@ -158,7 +162,11 @@ body::before {
   .product-promo img{
     width:40em;
   }
+  #nav-text{
+    display:none;
+  }
 }
+
 
 @media(max-width:1024px){
   #iPad-wifi-p{
